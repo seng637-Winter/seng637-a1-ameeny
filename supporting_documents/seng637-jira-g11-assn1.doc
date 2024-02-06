@@ -1,0 +1,4146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-30]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-30">Inquiry Transaction Missing Saving Account</a>
+            <span class="subText">
+               Created: 05/Feb/24                   &nbsp;Updated: 05/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.0 - 1.0"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.0</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:bd2fab97-24e8-4f4c-909e-8d9b0cb75f9b"
+                id="word_reporter_712020:bd2fab97-24e8-4f4c-909e-8d9b0cb75f9b"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Abd2fab97-24e8-4f4c-909e-8d9b0cb75f9b">
+                    Kunj Patel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10057-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Screenshot 2024-02-04 at 4.58.46 PM.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Preconditions:</p>
+
+<ul>
+	<li>v1.0</li>
+	<li>Login using card 1</li>
+</ul>
+
+
+<p>Steps to recreate:</p>
+
+<ol>
+	<li>Select inquiry transaction</li>
+</ol>
+
+
+<p>Issue for v1.0: Menu should show savings account but only shows checking and money market.</p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10029" height="406" width="764" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-29]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-29">Incorrect Transfer Transaction</a>
+            <span class="subText">
+               Created: 05/Feb/24                   &nbsp;Updated: 05/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:bd2fab97-24e8-4f4c-909e-8d9b0cb75f9b"
+                id="word_reporter_712020:bd2fab97-24e8-4f4c-909e-8d9b0cb75f9b"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Abd2fab97-24e8-4f4c-909e-8d9b0cb75f9b">
+                    Kunj Patel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10056-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Screenshot 2024-02-04 at 4.44.36 PM.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Screenshot 2024-02-04 at 4.47.50 PM.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Preconditions: </p>
+
+<ul>
+	<li>v1.0, v1.1</li>
+	<li>Login using card 1</li>
+</ul>
+
+
+<p>Steps to recreate:</p>
+
+<ol>
+	<li>Select Transfer</li>
+	<li>Select from Checking</li>
+	<li>Select to Savings</li>
+	<li>Enter $100</li>
+</ol>
+
+
+<p>Issue for v1.0: Transferred $100 from checking to saving but transferred amount shows $99.50 and message shows from savings to checking.</p>
+
+<p>Issue for v1.1: Transferred from checking to savings but message shows from savings to checking. Amount is correct.</p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10027" height="407" width="765" style="border: 0px solid black" /></span></p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10028" height="407" width="767" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-26]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-26">&quot;TRANSFER FROM:&quot; and &quot;TO:&quot; values are reversed.</a>
+            <span class="subText">
+               Created: 04/Feb/24                   &nbsp;Updated: 04/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.0 - 1.0"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.0</a>,                    <a title="ATM System - Lab 1 Version 1.1 - 1.1"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22affectedVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.1</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e633d865-9046-4bea-9930-c03e1db198cf"
+                id="word_reporter_712020:e633d865-9046-4bea-9930-c03e1db198cf"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae633d865-9046-4bea-9930-c03e1db198cf">
+                    Mohammad Mohaiminul Islam
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10053-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20240204-220251.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>"TRANSFER FROM:" and "TO:" values are reversed. Meaning, that the actual transfer was from Savings to a Checking account but the receipt shows the opposite.</p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10020" height="441" width="609" style="border: 0px solid black" /></span></p>
+
+<p>Preconditions:</p>
+
+<ul>
+	<li>v1.0, v1.1</li>
+	<li>Advance to log in</li>
+</ul>
+
+
+<p>Steps to recreate: <br/>
+1 - Press 3 to transfer<br/>
+2 - Select Checking account</p>
+
+<p>3 - Select Savings account<br/>
+4 - Input transfer balance</p>
+
+<ol>
+	<li>Check the receipt showing the "TRANSFER FROM:" and "TO:" accounts for validating.</li>
+</ol>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-25]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-25">Transfer amount from checking to savings and vice versa is $0.50 less than the stated amount</a>
+            <span class="subText">
+               Created: 04/Feb/24                   &nbsp;Updated: 04/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.0 - 1.0"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.0</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.1 - 1.1"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22fixVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.1</a>                        </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e633d865-9046-4bea-9930-c03e1db198cf"
+                id="word_reporter_712020:e633d865-9046-4bea-9930-c03e1db198cf"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae633d865-9046-4bea-9930-c03e1db198cf">
+                    Mohammad Mohaiminul Islam
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10052-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20240204-215207.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Transfer amount from checking to savings and vice versa is $0.50 less than the stated amount.</p>
+
+<p>For example, a transfer amount input of $100 will result in the transfer of $99.50.</p>
+
+
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10019" height="441" width="609" style="border: 0px solid black" /></span></p>
+
+<p>Preconditions:</p>
+
+<ul>
+	<li>v1.0</li>
+	<li>Advance to log in</li>
+</ul>
+
+
+<p>Steps to recreate: <br/>
+1 - Press 3 to transfer<br/>
+2 - Select Checking account </p>
+
+<p>3 - Select Savings account<br/>
+4 - Input transfer balance</p>
+
+<p>5. Check the receipt showing the transferred balance </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-24]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-24">Spelling mistake (&#39;wood&#39; instead of &#39;would&#39;) when prompting for another transaction[Repeated]</a>
+            <span class="subText">
+               Created: 04/Feb/24                   &nbsp;Updated: 05/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.0 - 1.0"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.0</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.1 - 1.1"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22fixVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.1</a>                        </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e633d865-9046-4bea-9930-c03e1db198cf"
+                id="word_reporter_712020:e633d865-9046-4bea-9930-c03e1db198cf"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae633d865-9046-4bea-9930-c03e1db198cf">
+                    Mohammad Mohaiminul Islam
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10051-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20240204-214150.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Spelling mistake ('wood' instead of 'would') when prompting for another transaction under feature: transfer</p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10018" height="442" width="612" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-23]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-23">Withdraw cash selection unresponsive after initial withdrawal</a>
+            <span class="subText">
+               Created: 04/Feb/24                   &nbsp;Updated: 04/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.1 - 1.1"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22affectedVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.1</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e037ba67-fa37-401f-a0cd-c017b1a81c18"
+                id="word_reporter_70121:e037ba67-fa37-401f-a0cd-c017b1a81c18"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae037ba67-fa37-401f-a0cd-c017b1a81c18">
+                    Ameen Yarkhan
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10050-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>*Attachment won’t work for some reason </p>
+
+<p>Preconditions: </p>
+
+<ul>
+	<li>v1.1</li>
+	<li>Successfully logged in, one successful withdrawal completed, on screen prompted to perform another transaction</li>
+</ul>
+
+
+<p>Steps to recreate: </p>
+
+<ul>
+	<li>Choose yes</li>
+	<li>Choose withdrawal</li>
+	<li>Choose amount within balance</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-21]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-21">MFT-17:Withdrew $200 from chk with $100 bal, received $20 also deducted from balance</a>
+            <span class="subText">
+               Created: 04/Feb/24                   &nbsp;Updated: 04/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.0 - 1.0"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.0</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.1 - 1.1"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22fixVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.1</a>                        </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e037ba67-fa37-401f-a0cd-c017b1a81c18"
+                id="word_reporter_70121:e037ba67-fa37-401f-a0cd-c017b1a81c18"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae037ba67-fa37-401f-a0cd-c017b1a81c18">
+                    Ameen Yarkhan
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10048-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Screenshot 2024-02-03 at 10.43.31 PM.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10017" height="407" width="765" style="border: 0px solid black" /></span></p>
+
+<p>Precondition: </p>
+
+<ul>
+	<li>v1.0</li>
+	<li>Initialize system with $600 (30 bills)</li>
+	<li>Log in successfully</li>
+</ul>
+
+
+<p>Steps to recreate: </p>
+
+<ol>
+	<li>Press 1 for withdrawal</li>
+	<li>Press 1 for chkg</li>
+	<li>Press 5 to withdraw $200</li>
+</ol>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-20]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-20">Deposit $10 into checking does not update balance</a>
+            <span class="subText">
+               Created: 04/Feb/24                   &nbsp;Updated: 04/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.0 - 1.0"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.0</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.1 - 1.1"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22fixVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.1</a>                        </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="70121:e037ba67-fa37-401f-a0cd-c017b1a81c18"
+                id="word_reporter_70121:e037ba67-fa37-401f-a0cd-c017b1a81c18"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ae037ba67-fa37-401f-a0cd-c017b1a81c18">
+                    Ameen Yarkhan
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10047-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Screenshot 2024-02-03 at 10.32.22 PM.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10016" height="408" width="763" style="border: 0px solid black" /></span></p>
+
+<p>Pre conditions: </p>
+
+<ul>
+	<li>v1.0</li>
+	<li>Advance to log in</li>
+</ul>
+
+
+
+
+
+
+<p>Steps to recreate: <br/>
+1 - Press 1 to deposit <br/>
+2 - Select Checking account</p>
+
+<p>3 - Deposit $10 into checking <br/>
+4 - Check remaining balance </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-18]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-18">Withdrawal Account Choice Throw $20 when a number is entered other than shown in the list</a>
+            <span class="subText">
+               Created: 03/Feb/24                   &nbsp;Updated: 03/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.0 - 1.0"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.0</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.1 - 1.1"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22fixVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.1</a>                        </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:df4db3b4-9371-423b-8d04-6f61394f4827"
+                id="word_reporter_712020:df4db3b4-9371-423b-8d04-6f61394f4827"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Adf4db3b4-9371-423b-8d04-6f61394f4827">
+                    Saif Abuhajleh
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10045-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Desktop Screenshot 2024.02.03 - 04.35.07.86.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Withdrawal Account Choice Throw $20 when a number is entered other than shown in the list and doesn’t show in Logs.</p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10015" width="50%" style="border: 0px solid black" /></span></p>
+
+<p>Pre Conditions:</p>
+
+<p>1- Running V1.0</p>
+
+<p>2-Logged in as a user</p>
+
+
+
+<p>Steps:</p>
+
+<p>1- Click 1 to Choose the Withdrawal</p>
+
+<p>2- Click Any Number other than the ones shown on the screen</p>
+
+<p>3- $20 bill will be thrown and not registered in logs</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-17]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-17">Withdrawal List if given any number other than shown in the list would throw $20 bills.</a>
+            <span class="subText">
+               Created: 03/Feb/24                   &nbsp;Updated: 03/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.0 - 1.0"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.0</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.1 - 1.1"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22fixVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.1</a>                        </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:df4db3b4-9371-423b-8d04-6f61394f4827"
+                id="word_reporter_712020:df4db3b4-9371-423b-8d04-6f61394f4827"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Adf4db3b4-9371-423b-8d04-6f61394f4827">
+                    Saif Abuhajleh
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10044-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Desktop Screenshot 2024.02.03 - 04.25.57.39.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Withdrawal List if given any number other than shown in the list would throw $20 bills and it won't show in the Logs</p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10014" height="342" width="467" style="border: 0px solid black" /></span></p>
+
+<p>Steps to recreate:</p>
+
+<p>Pre Cond:</p>
+
+<p>Running Version 1.0</p>
+
+<p>and Logged in </p>
+
+<p>Steps:</p>
+
+<p>1- Pick Withdrawal Transaction</p>
+
+<p>2-Choose an account that is accessible by the user</p>
+
+<p>3- Enter 7 for an example</p>
+
+<p>4- $20 bill will get thrown and registered in Logs</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-16]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-16">Missing $ sign in the withdraw List</a>
+            <span class="subText">
+               Created: 03/Feb/24                   &nbsp;Updated: 03/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.1 - 1.1"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22affectedVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.1</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:df4db3b4-9371-423b-8d04-6f61394f4827"
+                id="word_reporter_712020:df4db3b4-9371-423b-8d04-6f61394f4827"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Adf4db3b4-9371-423b-8d04-6f61394f4827">
+                    Saif Abuhajleh
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10043-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20240203-111003.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>The Withdraw List has a missing $ on the third choice</p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10013" height="263" width="407" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-15]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-15">Balance inquiry for the Saving Account Gives Unkown Error </a>
+            <span class="subText">
+               Created: 03/Feb/24                   &nbsp;Updated: 03/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.1 - 1.1"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22affectedVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.1</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:df4db3b4-9371-423b-8d04-6f61394f4827"
+                id="word_reporter_712020:df4db3b4-9371-423b-8d04-6f61394f4827"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Adf4db3b4-9371-423b-8d04-6f61394f4827">
+                    Saif Abuhajleh
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10042-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Desktop Screenshot 2024.02.03 - 03.56.44.14.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When Doing an inquiry for a savings account for a user that has access to A savings account it Gives Unknown Error and Throws $500 but gives the data</p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10012" height="342" width="466" style="border: 0px solid black" /></span></p>
+
+<p>Steps to recreate:</p>
+
+<p>Pre Cond</p>
+
+<p>Make sure you are running V1.1</p>
+
+<p>Steps:</p>
+
+<p>1-Click ON to activate the machine </p>
+
+<p>2-Enter an arbitrary amount of $20 bills </p>
+
+<p>3-Insert Card</p>
+
+<p>4- Enter a card information for an account that has access to a savings account</p>
+
+<p>5- Click Balance Inquiry</p>
+
+<p>6- Choose Savings</p>
+
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-14]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-14">The Balance Inquiry Transaction Choice Shows only 2 accounts Money Market and Checking accounts</a>
+            <span class="subText">
+               Created: 03/Feb/24                   &nbsp;Updated: 03/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.0 - 1.0"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.0</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.1 - 1.1"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22fixVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.1</a>                        </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:df4db3b4-9371-423b-8d04-6f61394f4827"
+                id="word_reporter_712020:df4db3b4-9371-423b-8d04-6f61394f4827"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Adf4db3b4-9371-423b-8d04-6f61394f4827">
+                    Saif Abuhajleh
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10041-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20240203-104744.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10011" height="264" width="411" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-13]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-13">Clicking On Any Number other than 1 or 2 in the prompt after cancel it Gives $20 bills to the user.</a>
+            <span class="subText">
+               Created: 03/Feb/24                   &nbsp;Updated: 03/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.0 - 1.0"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.0</a>,                    <a title="ATM System - Lab 1 Version 1.1 - 1.1"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22affectedVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.1</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:df4db3b4-9371-423b-8d04-6f61394f4827"
+                id="word_reporter_712020:df4db3b4-9371-423b-8d04-6f61394f4827"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Adf4db3b4-9371-423b-8d04-6f61394f4827">
+                    Saif Abuhajleh
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10040-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Desktop Screenshot 2024.02.03 - 03.13.54.42.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Clicking On Any Number other than 1 or 2 in the prompt after canceling it Gives $20 bill to the user.</p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10009" height="810" width="1440" style="border: 0px solid black" /></span></p>
+
+
+
+<p>Steps to Recreation:</p>
+
+<p>1-Click On </p>
+
+<p>2-Enter an arbitrary number of bills</p>
+
+<p>3- pick the Transaction Type</p>
+
+<p>4- Click Cancel</p>
+
+<p>5- Click any number other than 1 or 2</p>
+
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-12]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-12">Minor Spelling Mistake when doing a cancelation to any Transaction it Says wood.</a>
+            <span class="subText">
+               Created: 03/Feb/24                   &nbsp;Updated: 03/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.0 - 1.0"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.0</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.1 - 1.1"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22fixVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.1</a>                        </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Lowest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:df4db3b4-9371-423b-8d04-6f61394f4827"
+                id="word_reporter_712020:df4db3b4-9371-423b-8d04-6f61394f4827"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Adf4db3b4-9371-423b-8d04-6f61394f4827">
+                    Saif Abuhajleh
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10039-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Cap Wood.PNG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Minor Spelling Mistake when doing a cancelation to any Transaction it Says wood instead of would.</p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10008" height="177" width="274" style="border: 0px solid black" /></span></p>
+
+<p>Steps to Recreation:</p>
+
+<p>Pre Cond: </p>
+
+<p>Running V1.0</p>
+
+<p>Steps:</p>
+
+<p>1-Click On </p>
+
+<p>2-Enter an arbitrary amount of $20 bills </p>
+
+<p>3-Insert card and enter Valid Card info</p>
+
+<p>4-Click on Withdrawal </p>
+
+<p>5- Click Cancel</p>
+
+<h1><a name="FixedInV1.1"></a><b>Fixed In V1.1</b></h1>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-5]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-5">After Making a Deposit in Checking Account, System  Freezes and Shows a Defect if Any Number Other Than 1 or 2 Is Clicked to Make a New Transaction</a>
+            <span class="subText">
+               Created: 02/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.0 - 1.0"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22fixVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.0</a>                        </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b"
+                id="word_reporter_712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Af6fecafc-b5da-438a-9ad0-de6a5d5ac48b">
+                    Md Rakin Ashraf Khan
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10032-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Freezes after pressing any other button other than 1 or 2 after transaction.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Tests completed confirm bug:</p>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>Function Tested</b></td>
+<td class='confluenceTd'><b>Initial State of System</b></td>
+<td class='confluenceTd'><b>Steps Taken to Produce Defect/Bug</b></td>
+<td class='confluenceTd'><b>Expected Outcome</b></td>
+<td class='confluenceTd'><b>Actual Outcome</b></td>
+<td class='confluenceTd'><b>Pass/Fail?</b></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Click any number after making a deposit</td>
+<td class='confluenceTd'>Would you like to do another transaction? <br/>
+1) Yes<br/>
+2) No</td>
+<td class='confluenceTd'>Click 5</td>
+<td class='confluenceTd'>System freezes and $20.00 message is shown</td>
+<td class='confluenceTd'>System will not freeze and the and screen will just show,<br/>
+Would you like to do another transaction? 
+<ol>
+	<li>Yes</li>
+	<li>No</li>
+</ol>
+</td>
+<td class='confluenceTd'>Fail</td>
+</tr>
+</tbody></table>
+</div>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10003"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b"
+                id="word_commented_712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Af6fecafc-b5da-438a-9ad0-de6a5d5ac48b">
+                    Md Rakin Ashraf Khan
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">02/Feb/24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10003"><td bgcolor="#ffffff">
+            <h2><a name="fixedinV1.1"></a><b>fixed in V1.1</b></h2>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-4]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-4">Spelling Mistake After Making a Deposit in Savings Account - Spelling should be Would instead of Wood</a>
+            <span class="subText">
+               Created: 02/Feb/24                   &nbsp;Updated: 02/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.0 - 1.0"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.0</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.0 - 1.0"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22fixVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.0</a>                        </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b"
+                id="word_reporter_712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Af6fecafc-b5da-438a-9ad0-de6a5d5ac48b">
+                    Md Rakin Ashraf Khan
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10031-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20240202-225434.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10006" height="836" width="1732" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10002"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b"
+                id="word_commented_712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Af6fecafc-b5da-438a-9ad0-de6a5d5ac48b">
+                    Md Rakin Ashraf Khan
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">02/Feb/24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10002"><td bgcolor="#ffffff">
+            <h2><a name="fixedinV1.1"></a><b>fixed in V1.1</b></h2>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-3]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-3">Deposit 100.00 Dollars Into the Checking and Savings Account Deduct 10.00 Dollars from the Total Balance </a>
+            <span class="subText">
+               Created: 02/Feb/24                   &nbsp;Updated: 04/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.0 - 1.0"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22fixVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.0</a>                        </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b"
+                id="word_reporter_712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Af6fecafc-b5da-438a-9ad0-de6a5d5ac48b">
+                    Md Rakin Ashraf Khan
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10030-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20240202-222849.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Tests completed confirm bug:</p>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>Function Tested</b></td>
+<td class='confluenceTd'><b>Initial State of System</b></td>
+<td class='confluenceTd'><b>Steps Taken to Produce Defect/Bug</b></td>
+<td class='confluenceTd'><b>Expected Outcome</b></td>
+<td class='confluenceTd'><b>Actual Outcome</b></td>
+<td class='confluenceTd'><b>Pass/Fail?</b></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Deposit in Savings Account</td>
+<td class='confluenceTd'>Card Number: 1<br/>
+Savings Balance: $100.00</td>
+<td class='confluenceTd'>Deposit $100.00</td>
+<td class='confluenceTd'>Savings Balance: $199.90<br/>
+Savings Available: $199.90</td>
+<td class='confluenceTd'>Savings Balance: $190.00<br/>
+Savings Available: $100.00</td>
+<td class='confluenceTd'>Fail</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Deposit in Checking Account</td>
+<td class='confluenceTd'>Card Number: 1<br/>
+Checking Balance: $100.00</td>
+<td class='confluenceTd'>Deposit $20.00</td>
+<td class='confluenceTd'>Checking Balance: $119.90<br/>
+Checking Available: $119.90</td>
+<td class='confluenceTd'>Checking Balance: $110.00<br/>
+Checking Available: $100.00</td>
+<td class='confluenceTd'>Fail2</td>
+</tr>
+</tbody></table>
+</div>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-2]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-2">Withdrawal from the Checking Account Withdraws Wrong Amounts</a>
+            <span class="subText">
+               Created: 02/Feb/24                   &nbsp;Updated: 03/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.0 - 1.0"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22fixVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.0</a>                        </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:df4db3b4-9371-423b-8d04-6f61394f4827"
+                id="word_reporter_712020:df4db3b4-9371-423b-8d04-6f61394f4827"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Adf4db3b4-9371-423b-8d04-6f61394f4827">
+                    Saif Abuhajleh
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10029-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Desktop Screenshot 2024.02.01 - 21.31.58.60.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>In V1.0 when trying to withdraw a 20 dollar amount it ends up withdrawing 40 dollars</p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10004" height="810" width="1440" style="border: 0px solid black" /></span></p>
+
+<p>Steps to recreate the Bug:</p>
+
+<p>Pre-Cond: you are running V1.0</p>
+
+<p>1-Activate the machine </p>
+
+<p>2-Enter the number of 20-dollar bills in the machine </p>
+
+<p>3- Click insert Card</p>
+
+<p>4-Enter Valid Card information (1 for number and for pin 42)</p>
+
+<p>5-Click on your choice of withdrawal you want</p>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<th class='confluenceTh'><b>Choice</b></th>
+<th class='confluenceTh'><b>Expected</b></th>
+<th class='confluenceTh'><b>Actual</b></th>
+</tr>
+<tr>
+<td class='confluenceTd'>Click 1</td>
+<td class='confluenceTd'>Withdraw $20</td>
+<td class='confluenceTd'>Withdraw $40</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Click 2</td>
+<td class='confluenceTd'>Withdraw $40</td>
+<td class='confluenceTd'>Withdraw $60</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Click 3</td>
+<td class='confluenceTd'>Withdraw $60</td>
+<td class='confluenceTd'>Withdraw $100</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Click 4</td>
+<td class='confluenceTd'>Withdraw $100</td>
+<td class='confluenceTd'><b>Insufficient Funds</b></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Click 5</td>
+<td class='confluenceTd'><b>Insufficient Funds</b> (<ins>Since the amount in Checking is 100 at the start</ins>) <br/>
+<ins><b>if Balance &gt;=200</b></ins> <br/>
+<b>Withdraw $200</b></td>
+<td class='confluenceTd'>Withdraw $20</td>
+</tr>
+</tbody></table>
+</div>
+
+
+
+
+<h2><a name="fixedinV1.1"></a><b>fixed in V1.1</b> </h2>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [S1A-1]&nbsp;<a href="https://ucalgary-abhijeetkarmakar.atlassian.net/browse/S1A-1">Balance inquiry for Money Market Account Gives Unknown Error and throws 500$</a>
+            <span class="subText">
+               Created: 02/Feb/24                   &nbsp;Updated: 03/Feb/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/BrowseProject.jspa?id=10001">Seng637-11-assign1</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="ATM System - Lab 1 Version 1.1 - 1.1"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/issues/?jql=project%3D10001%20AND%20%22fixVersion%22%3D10001%20ORDER%20BY%20priority%20ASC"
+            >ATM System - Lab 1 Version 1.1</a>                        </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:df4db3b4-9371-423b-8d04-6f61394f4827"
+                id="word_reporter_712020:df4db3b4-9371-423b-8d04-6f61394f4827"
+                href="https://ucalgary-abhijeetkarmakar.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Adf4db3b4-9371-423b-8d04-6f61394f4827">
+                    Saif Abuhajleh
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10028-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Desktop Screenshot 2024.02.01 - 19.08.38.78.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://ucalgary-abhijeetkarmakar.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20240203-103148.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>1)When a user tries to enquire about the money market account in V1.0 it Generates Unkown error and throws for user who does not have access to the Money Market account 500$ and Gives the info for the SVGS account.</b></p>
+
+<p><b>2)And for accounts that have access to the Money Market account it gives invalid type of account.</b></p>
+
+
+
+<p>1)</p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10003" width="50%" style="border: 0px solid black" /></span></p>
+
+<p>2)</p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10010" height="263" width="413" style="border: 0px solid black" /></span></p>
+
+<p>Steps to Recreation:</p>
+
+<p>Pre Cond:</p>
+
+<p>Running V1.0</p>
+
+
+
+<p>Steps</p>
+
+<p>to Get Case 1:</p>
+
+<p>1- Click ON to activate the machine</p>
+
+<p>2- Enter an arbitrary number of Bills </p>
+
+<p>3- Login as an account that does not have access to Money Market account.</p>
+
+<p>4- Choose the Balance inquiry </p>
+
+<p>5- Choose Money Market</p>
+
+<p>to Get Case 2:</p>
+
+<p>1- Click ON to activate the machine</p>
+
+<p>2- Enter an arbitrary number of Bills </p>
+
+<p>3- Login as an account that has access to Money Market account.</p>
+
+<p>4- Choose the Balance inquiry </p>
+
+<p>5- Choose Money Market</p>
+
+
+
+
+
+
+
+<p><b>Fixed in V1.1</b></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Generated at Tue Feb 06 04:45:17 UTC 2024 by Ameen Yarkhan using Jira 1001.0.0-SNAPSHOT#100245-sha1:3926cb0373aec1f44de525fe5ac6b5dbcf3a63b1.
+
+</body>
+</html>
