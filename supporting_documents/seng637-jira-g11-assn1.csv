@@ -1,0 +1,333 @@
+﻿Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Affects versions,Affects versions,Fix versions,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Attachment,Custom field (Actual end),Custom field (Actual start),Custom field (Atlas project key),Custom field (Atlas project status),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Development),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (Impact),Custom field (Issue color),Custom field (Locked forms),Custom field (Open forms),Custom field (Rank),Custom field (Request Type),Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Total forms),Custom field ([CHART] Date of First Response),Comment,Status Category,Status Category Changed
+Inquiry Transaction Missing Saving Account,S1A-30,10057,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,High,,,,Kunj Patel,712020:bd2fab97-24e8-4f4c-909e-8d9b0cb75f9b,Kunj Patel,712020:bd2fab97-24e8-4f4c-909e-8d9b0cb75f9b,04/Feb/24 7:04 PM,04/Feb/24 7:04 PM,05/Feb/24 9:40 PM,,ATM System - Lab 1 Version 1.0,,,,0,"Preconditions:
+
+* v1.0
+* Login using card 1
+
+Steps to recreate:
+
+# Select inquiry transaction
+
+Issue for v1.0: Menu should show savings account but only shows checking and money market.
+
+!Screenshot 2024-02-04 at 4.58.46 PM.png|width=764,height=406!",,Kunj Patel,712020:bd2fab97-24e8-4f4c-909e-8d9b0cb75f9b,,,,,,,,,04/Feb/24 7:04 PM;712020:bd2fab97-24e8-4f4c-909e-8d9b0cb75f9b;Screenshot 2024-02-04 at 4.58.46 PM.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10029,,,,,,,,,,,,,,,,,0|i000af:,,,,,,,,,,,,To Do,04/Feb/24 7:04 PM
+Incorrect Transfer Transaction,S1A-29,10056,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,High,,,,Kunj Patel,712020:bd2fab97-24e8-4f4c-909e-8d9b0cb75f9b,Kunj Patel,712020:bd2fab97-24e8-4f4c-909e-8d9b0cb75f9b,04/Feb/24 6:54 PM,04/Feb/24 6:54 PM,05/Feb/24 9:40 PM,,,,,,0,"Preconditions: 
+
+* v1.0, v1.1
+* Login using card 1
+
+Steps to recreate:
+
+# Select Transfer
+# Select from Checking
+# Select to Savings
+# Enter $100
+
+Issue for v1.0: Transferred $100 from checking to saving but transferred amount shows $99.50 and message shows from savings to checking.
+
+Issue for v1.1: Transferred from checking to savings but message shows from savings to checking. Amount is correct.
+
+!Screenshot 2024-02-04 at 4.44.36 PM.png|width=765,height=407!
+
+!Screenshot 2024-02-04 at 4.47.50 PM.png|width=767,height=407!",,Kunj Patel,712020:bd2fab97-24e8-4f4c-909e-8d9b0cb75f9b,,,,,,,,,04/Feb/24 6:54 PM;712020:bd2fab97-24e8-4f4c-909e-8d9b0cb75f9b;Screenshot 2024-02-04 at 4.44.36 PM.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10027,04/Feb/24 6:54 PM;712020:bd2fab97-24e8-4f4c-909e-8d9b0cb75f9b;Screenshot 2024-02-04 at 4.47.50 PM.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10028,,,,,,,,,,,,,,,,0|i000a7:,,,,,,,,,,,,To Do,04/Feb/24 6:54 PM
+"""TRANSFER FROM:"" and ""TO:"" values are reversed.",S1A-26,10053,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,High,,,,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,04/Feb/24 3:04 PM,04/Feb/24 3:05 PM,04/Feb/24 7:35 PM,,ATM System - Lab 1 Version 1.0,ATM System - Lab 1 Version 1.1,,,0,"""TRANSFER FROM:"" and ""TO:"" values are reversed. Meaning, that the actual transfer was from Savings to a Checking account but the receipt shows the opposite.
+
+!image-20240204-220251.png|width=609,height=441!
+
+Preconditions:
+
+* v1.0, v1.1
+* Advance to log in
+
+Steps to recreate: 
+1 - Press 3 to transfer
+2 - Select Checking account
+
+3 - Select Savings account
+4 - Input transfer balance
+
+# Check the receipt showing the ""TRANSFER FROM:"" and ""TO:"" accounts for validating.",,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,,,,,,,,04/Feb/24 3:04 PM;ug:03f08237-11f1-4f45-926a-29c6cdaf9bbb;image-20240204-220251.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10020,,,,,,,,,,,,,,,,,0|i0009j:,,,,,,,,,,,,To Do,04/Feb/24 3:04 PM
+Transfer amount from checking to savings and vice versa is $0.50 less than the stated amount,S1A-25,10052,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,Highest,,,,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,04/Feb/24 2:52 PM,04/Feb/24 2:56 PM,05/Feb/24 9:40 PM,,ATM System - Lab 1 Version 1.0,,ATM System - Lab 1 Version 1.1,,0,"Transfer amount from checking to savings and vice versa is $0.50 less than the stated amount.
+
+For example, a transfer amount input of $100 will result in the transfer of $99.50.
+
+
+
+!image-20240204-215207.png|width=609,height=441!
+
+Preconditions:
+
+* v1.0
+* Advance to log in
+
+Steps to recreate: 
+1 - Press 3 to transfer
+2 - Select Checking account 
+
+3 - Select Savings account
+4 - Input transfer balance
+
+5. Check the receipt showing the transferred balance ",,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,,,,,,,,04/Feb/24 2:52 PM;ug:03f08237-11f1-4f45-926a-29c6cdaf9bbb;image-20240204-215207.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10019,,,,,,,,,,,,,,,,,0|i0009b:,,,,,,,,,,,,To Do,04/Feb/24 2:52 PM
+Spelling mistake ('wood' instead of 'would') when prompting for another transaction[Repeated],S1A-24,10051,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,Medium,,,,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,04/Feb/24 2:42 PM,04/Feb/24 7:36 PM,05/Feb/24 9:40 PM,,ATM System - Lab 1 Version 1.0,,ATM System - Lab 1 Version 1.1,,0,"Spelling mistake ('wood' instead of 'would') when prompting for another transaction under feature: transfer
+
+!image-20240204-214150.png|width=612,height=442!",,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,,,,,,,,04/Feb/24 2:42 PM;ug:03f08237-11f1-4f45-926a-29c6cdaf9bbb;image-20240204-214150.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10018,,,,,,,,,,,,,,,,,0|i00093:,,,,,,,,,,,,To Do,04/Feb/24 2:42 PM
+Withdraw cash selection unresponsive after initial withdrawal,S1A-23,10050,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,Medium,,,,Ameen Yarkhan,70121:e037ba67-fa37-401f-a0cd-c017b1a81c18,Ameen Yarkhan,70121:e037ba67-fa37-401f-a0cd-c017b1a81c18,03/Feb/24 11:37 PM,03/Feb/24 11:37 PM,05/Feb/24 9:40 PM,,ATM System - Lab 1 Version 1.1,,,,0,"*Attachment won’t work for some reason 
+
+Preconditions: 
+
+* v1.1 
+* Successfully logged in, one successful withdrawal completed, on screen prompted to perform another transaction 
+
+Steps to recreate: 
+
+* Choose yes 
+* Choose withdrawal 
+* Choose amount within balance ",,Ameen Yarkhan,70121:e037ba67-fa37-401f-a0cd-c017b1a81c18,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0008v:,,,,,,,,,,,,To Do,03/Feb/24 11:37 PM
+"MFT-17:Withdrew $200 from chk with $100 bal, received $20 also deducted from balance",S1A-21,10048,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,High,,,,Ameen Yarkhan,70121:e037ba67-fa37-401f-a0cd-c017b1a81c18,Ameen Yarkhan,70121:e037ba67-fa37-401f-a0cd-c017b1a81c18,03/Feb/24 10:46 PM,03/Feb/24 10:46 PM,04/Feb/24 7:28 PM,,ATM System - Lab 1 Version 1.0,,ATM System - Lab 1 Version 1.1,,0,"!Screenshot 2024-02-03 at 10.43.31 PM.png|width=765,height=407!
+
+Precondition: 
+
+* v1.0 
+* Initialize system with $600 (30 bills)
+* Log in successfully 
+
+Steps to recreate: 
+
+# Press 1 for withdrawal
+# Press 1 for chkg
+# Press 5 to withdraw $200 ",,Ameen Yarkhan,70121:e037ba67-fa37-401f-a0cd-c017b1a81c18,,,,,,,,,03/Feb/24 10:46 PM;70121:e037ba67-fa37-401f-a0cd-c017b1a81c18;Screenshot 2024-02-03 at 10.43.31 PM.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10017,,,,,,,,,,,,,,,,,0|i0008n:,,,,,,,,,,,,To Do,03/Feb/24 10:46 PM
+Deposit $10 into checking does not update balance,S1A-20,10047,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,Highest,,,,Ameen Yarkhan,70121:e037ba67-fa37-401f-a0cd-c017b1a81c18,Ameen Yarkhan,70121:e037ba67-fa37-401f-a0cd-c017b1a81c18,03/Feb/24 10:33 PM,03/Feb/24 10:36 PM,03/Feb/24 10:34 PM,,ATM System - Lab 1 Version 1.0,,ATM System - Lab 1 Version 1.1,,0,"!Screenshot 2024-02-03 at 10.32.22 PM.png|width=763,height=408!
+
+Pre conditions: 
+
+* v1.0
+* Advance to log in
+
+
+
+
+
+Steps to recreate: 
+1 - Press 1 to deposit 
+2 - Select Checking account
+
+3 - Deposit $10 into checking 
+4 - Check remaining balance ",,Ameen Yarkhan,70121:e037ba67-fa37-401f-a0cd-c017b1a81c18,,,,,,,,,03/Feb/24 10:33 PM;70121:e037ba67-fa37-401f-a0cd-c017b1a81c18;Screenshot 2024-02-03 at 10.32.22 PM.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10016,,,,,,,,,,,,,,,,,0|i0008f:,,,,,,,,,,,,To Do,03/Feb/24 10:33 PM
+Withdrawal Account Choice Throw $20 when a number is entered other than shown in the list,S1A-18,10045,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,Highest,,,,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,03/Feb/24 4:41 AM,03/Feb/24 4:42 AM,03/Feb/24 10:31 PM,,ATM System - Lab 1 Version 1.0,,ATM System - Lab 1 Version 1.1,,0,"Withdrawal Account Choice Throw $20 when a number is entered other than shown in the list and doesn’t show in Logs.
+
+!Desktop Screenshot 2024.02.03 - 04.35.07.86.png|width=50%!
+
+Pre Conditions:
+
+1- Running V1.0
+
+2-Logged in as a user
+
+
+
+Steps:
+
+1- Click 1 to Choose the Withdrawal
+
+2- Click Any Number other than the ones shown on the screen
+
+3- $20 bill will be thrown and not registered in logs",,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,,,,,,,,,03/Feb/24 4:41 AM;712020:df4db3b4-9371-423b-8d04-6f61394f4827;Desktop Screenshot 2024.02.03 - 04.35.07.86.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10015,,,,,,,,,,,,,,,,,0|i00087:,,,,,,,,,,,,To Do,03/Feb/24 4:41 AM
+Withdrawal List if given any number other than shown in the list would throw $20 bills.,S1A-17,10044,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,Highest,,,,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,03/Feb/24 4:32 AM,03/Feb/24 4:32 AM,05/Feb/24 9:40 PM,,ATM System - Lab 1 Version 1.0,,ATM System - Lab 1 Version 1.1,,0,"Withdrawal List if given any number other than shown in the list would throw $20 bills and it won't show in the Logs
+
+!Desktop Screenshot 2024.02.03 - 04.25.57.39.png|width=467,height=342!
+
+Steps to recreate:
+
+Pre Cond:
+
+Running Version 1.0
+
+and Logged in 
+
+Steps:
+
+1- Pick Withdrawal Transaction
+
+2-Choose an account that is accessible by the user
+
+3- Enter 7 for an example
+
+4- $20 bill will get thrown and registered in Logs",,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,,,,,,,,,03/Feb/24 4:32 AM;712020:df4db3b4-9371-423b-8d04-6f61394f4827;Desktop Screenshot 2024.02.03 - 04.25.57.39.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10014,,,,,,,,,,,,,,,,,0|i0007z:,,,,,,,,,,,,To Do,03/Feb/24 4:32 AM
+Missing $ sign in the withdraw List,S1A-16,10043,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,Low,,,,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,03/Feb/24 4:15 AM,03/Feb/24 4:15 AM,03/Feb/24 11:19 PM,,ATM System - Lab 1 Version 1.1,,,,0,"The Withdraw List has a missing $ on the third choice
+
+!image-20240203-111003.png|width=407,height=263!",,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,,,,,,,,,03/Feb/24 4:15 AM;712020:df4db3b4-9371-423b-8d04-6f61394f4827;image-20240203-111003.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10013,,,,,,,,,,,,,,,,,0|i0007r:,,,,,,,,,,,,To Do,03/Feb/24 4:15 AM
+Balance inquiry for the Saving Account Gives Unkown Error ,S1A-15,10042,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,Highest,,,,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,03/Feb/24 4:04 AM,03/Feb/24 4:05 AM,05/Feb/24 9:40 PM,,ATM System - Lab 1 Version 1.1,,,,0,"When Doing an inquiry for a savings account for a user that has access to A savings account it Gives Unknown Error and Throws $500 but gives the data
+
+!Desktop Screenshot 2024.02.03 - 03.56.44.14.png|width=466,height=342!
+
+Steps to recreate:
+
+Pre Cond
+
+Make sure you are running V1.1
+
+Steps:
+
+1-Click ON to activate the machine 
+
+2-Enter an arbitrary amount of $20 bills 
+
+3-Insert Card
+
+4- Enter a card information for an account that has access to a savings account
+
+5- Click Balance Inquiry
+
+6- Choose Savings
+
+ ",,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,,,,,,,,,03/Feb/24 4:04 AM;712020:df4db3b4-9371-423b-8d04-6f61394f4827;Desktop Screenshot 2024.02.03 - 03.56.44.14.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10012,,,,,,,,,,,,,,,,,0|i0007j:,,,,,,,,,,,,To Do,03/Feb/24 4:05 AM
+The Balance Inquiry Transaction Choice Shows only 2 accounts Money Market and Checking accounts,S1A-14,10041,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,High,,,,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,03/Feb/24 3:48 AM,03/Feb/24 3:48 AM,05/Feb/24 9:40 PM,,ATM System - Lab 1 Version 1.0,,ATM System - Lab 1 Version 1.1,,0,"!image-20240203-104744.png|width=411,height=264!",,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,,,,,,,,,03/Feb/24 3:48 AM;712020:df4db3b4-9371-423b-8d04-6f61394f4827;image-20240203-104744.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10011,,,,,,,,,,,,,,,,,0|i0007b:,,,,,,,,,,,,To Do,03/Feb/24 3:48 AM
+Clicking On Any Number other than 1 or 2 in the prompt after cancel it Gives $20 bills to the user.,S1A-13,10040,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,High,,,,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,03/Feb/24 3:36 AM,03/Feb/24 3:36 AM,05/Feb/24 9:40 PM,,ATM System - Lab 1 Version 1.0,ATM System - Lab 1 Version 1.1,,,0,"Clicking On Any Number other than 1 or 2 in the prompt after canceling it Gives $20 bill to the user.
+
+!Desktop Screenshot 2024.02.03 - 03.13.54.42.png|width=1440,height=810!
+
+
+
+Steps to Recreation:
+
+1-Click On 
+
+2-Enter an arbitrary number of bills
+
+3- pick the Transaction Type
+
+4- Click Cancel
+
+5- Click any number other than 1 or 2
+
+ ",,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,,,,,,,,,03/Feb/24 3:36 AM;712020:df4db3b4-9371-423b-8d04-6f61394f4827;Desktop Screenshot 2024.02.03 - 03.13.54.42.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10009,,,,,,,,,,,,,,,,,0|i00073:,,,,,,,,,,,,To Do,03/Feb/24 3:36 AM
+Minor Spelling Mistake when doing a cancelation to any Transaction it Says wood.,S1A-12,10039,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,Lowest,,,,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,03/Feb/24 3:04 AM,03/Feb/24 3:06 AM,05/Feb/24 9:40 PM,,ATM System - Lab 1 Version 1.0,,ATM System - Lab 1 Version 1.1,,0,"Minor Spelling Mistake when doing a cancelation to any Transaction it Says wood instead of would.
+
+!Cap Wood.PNG|width=274,height=177!
+
+Steps to Recreation:
+
+Pre Cond: 
+
+Running V1.0
+
+Steps:
+
+1-Click On 
+
+2-Enter an arbitrary amount of $20 bills 
+
+3-Insert card and enter Valid Card info
+
+4-Click on Withdrawal 
+
+5- Click Cancel
+
+h1. *Fixed In V1.1*",,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,,,,,,,,,03/Feb/24 3:06 AM;712020:df4db3b4-9371-423b-8d04-6f61394f4827;Cap Wood.PNG;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10008,,,,,,,,,,,,,,,,,0|i0006v:,,,,,,,,,,,,To Do,03/Feb/24 3:04 AM
+"After Making a Deposit in Checking Account, System  Freezes and Shows a Defect if Any Number Other Than 1 or 2 Is Clicked to Make a New Transaction",S1A-5,10032,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,Medium,,,,Md Rakin Ashraf Khan,712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b,Md Rakin Ashraf Khan,712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b,02/Feb/24 4:21 PM,02/Feb/24 4:28 PM,05/Feb/24 9:40 PM,,,,ATM System - Lab 1 Version 1.0,,0,"Tests completed confirm bug:
+
+|*Function Tested*|*Initial State of System*|*Steps Taken to Produce Defect/Bug*|*Expected Outcome*|*Actual Outcome*|*Pass/Fail?*|
+|Click any number after making a deposit|Would you like to do another transaction? 
+1) Yes
+2) No|Click 5|System freezes and $20.00 message is shown|System will not freeze and the and screen will just show,
+Would you like to do another transaction? 
+# Yes
+# No|Fail|",,Md Rakin Ashraf Khan,712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b,,,,,,,,,02/Feb/24 4:16 PM;ug:12080b19-0b42-422b-821c-fb39e8eed2bd;Freezes after pressing any other button other than 1 or 2 after transaction.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10007,,,,,,,,,,,,,,,,,0|i0006n:,,,,,,,,,,,02/Feb/24 4:25 PM;712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b;h2. *fixed in V1.1*,To Do,02/Feb/24 4:21 PM
+Spelling Mistake After Making a Deposit in Savings Account - Spelling should be Would instead of Wood,S1A-4,10031,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,High,,,,Md Rakin Ashraf Khan,712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b,Md Rakin Ashraf Khan,712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b,02/Feb/24 3:54 PM,02/Feb/24 4:28 PM,04/Feb/24 7:34 PM,,ATM System - Lab 1 Version 1.0,,ATM System - Lab 1 Version 1.0,,0,"!image-20240202-225434.png|width=1732,height=836!",,Md Rakin Ashraf Khan,712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b,,,,,,,,,02/Feb/24 3:54 PM;ug:12080b19-0b42-422b-821c-fb39e8eed2bd;image-20240202-225434.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10006,,,,,,,,,,,,,,,,,0|i0006f:,,,,,,,,,,,02/Feb/24 3:56 PM;712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b;h2. *fixed in V1.1*,To Do,02/Feb/24 3:54 PM
+Deposit 100.00 Dollars Into the Checking and Savings Account Deduct 10.00 Dollars from the Total Balance ,S1A-3,10030,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,High,,,,Md Rakin Ashraf Khan,712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b,Md Rakin Ashraf Khan,712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b,02/Feb/24 3:43 PM,03/Feb/24 11:17 PM,04/Feb/24 7:34 PM,,,,ATM System - Lab 1 Version 1.0,,0,"Tests completed confirm bug:
+
+|*Function Tested*|*Initial State of System*|*Steps Taken to Produce Defect/Bug*|*Expected Outcome*|*Actual Outcome*|*Pass/Fail?*|
+|Deposit in Savings Account|Card Number: 1
+Savings Balance: $100.00|Deposit $100.00|Savings Balance: $199.90
+Savings Available: $199.90|Savings Balance: $190.00
+Savings Available: $100.00|Fail|
+
+|Deposit in Checking Account|Card Number: 1
+Checking Balance: $100.00|Deposit $20.00|Checking Balance: $119.90
+Checking Available: $119.90|Checking Balance: $110.00
+Checking Available: $100.00|Fail2|",,Md Rakin Ashraf Khan,712020:f6fecafc-b5da-438a-9ad0-de6a5d5ac48b,,,,,,,,,02/Feb/24 3:27 PM;ug:12080b19-0b42-422b-821c-fb39e8eed2bd;image-20240202-222849.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10005,,,,,,,,,,,,,,,,,0|i00067:,,,,,,,,,,,,To Do,02/Feb/24 3:43 PM
+Withdrawal from the Checking Account Withdraws Wrong Amounts,S1A-2,10029,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,Highest,,,,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,01/Feb/24 9:56 PM,03/Feb/24 1:37 AM,05/Feb/24 9:40 PM,,,,ATM System - Lab 1 Version 1.0,,0,"In V1.0 when trying to withdraw a 20 dollar amount it ends up withdrawing 40 dollars
+
+!Desktop Screenshot 2024.02.01 - 21.31.58.60.png|width=1440,height=810!
+
+Steps to recreate the Bug:
+
+Pre-Cond: you are running V1.0
+
+1-Activate the machine 
+
+2-Enter the number of 20-dollar bills in the machine 
+
+3- Click insert Card
+
+4-Enter Valid Card information (1 for number and for pin 42)
+
+5-Click on your choice of withdrawal you want
+
+||*Choice*||*Expected*||*Actual*||
+|Click 1|Withdraw $20|Withdraw $40|
+|Click 2|Withdraw $40|Withdraw $60|
+|Click 3|Withdraw $60|Withdraw $100|
+|Click 4|Withdraw $100|*Insufficient Funds*|
+|Click 5|*Insufficient Funds* (+Since the amount in Checking is 100 at the start+) 
++*if Balance >=200*+ 
+*Withdraw $200*|Withdraw $20|
+
+ 
+
+h2.  *fixed in V1.1* ",,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,,,,,,,,,01/Feb/24 9:56 PM;712020:df4db3b4-9371-423b-8d04-6f61394f4827;Desktop Screenshot 2024.02.01 - 21.31.58.60.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10004,,,,,,,,,,,,,,,,,0|i0005z:,,,,,,,,,,,,To Do,01/Feb/24 9:56 PM
+Balance inquiry for Money Market Account Gives Unknown Error and throws 500$,S1A-1,10028,Bug,To Do,S1A,Seng637-11-assign1,software,Mohammad Mohaiminul Islam,712020:e633d865-9046-4bea-9930-c03e1db198cf,,Highest,,,,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,01/Feb/24 7:11 PM,03/Feb/24 3:43 AM,05/Feb/24 9:40 PM,,,,ATM System - Lab 1 Version 1.1,,0,"*1)When a user tries to enquire about the money market account in V1.0 it Generates Unkown error and throws for user who does not have access to the Money Market account 500$ and Gives the info for the SVGS account.*
+
+*2)And for accounts that have access to the Money Market account it gives invalid type of account.*
+
+
+
+1)
+
+!Desktop Screenshot 2024.02.01 - 19.08.38.78.png|width=50%!
+
+2)
+
+!image-20240203-103148.png|width=413,height=263!
+
+Steps to Recreation:
+
+Pre Cond:
+
+Running V1.0
+
+ 
+
+Steps
+
+to Get Case 1:
+
+1- Click ON to activate the machine
+
+2- Enter an arbitrary number of Bills 
+
+3- Login as an account that does not have access to Money Market account.
+
+4- Choose the Balance inquiry 
+
+5- Choose Money Market
+
+to Get Case 2:
+
+1- Click ON to activate the machine
+
+2- Enter an arbitrary number of Bills 
+
+3- Login as an account that has access to Money Market account.
+
+4- Choose the Balance inquiry 
+
+5- Choose Money Market
+
+ 
+
+
+
+
+
+*Fixed in V1.1*",,Saif Abuhajleh,712020:df4db3b4-9371-423b-8d04-6f61394f4827,,,,,,,,,01/Feb/24 7:11 PM;712020:df4db3b4-9371-423b-8d04-6f61394f4827;Desktop Screenshot 2024.02.01 - 19.08.38.78.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10003,03/Feb/24 3:42 AM;712020:df4db3b4-9371-423b-8d04-6f61394f4827;image-20240203-103148.png;https://ucalgary-abhijeetkarmakar.atlassian.net/rest/api/3/attachment/content/10010,,,,,,,,,,,,,,,,0|i0005r:,,,,,,,,,,,,To Do,01/Feb/24 9:56 PM
